@@ -4,6 +4,7 @@
     font-size: 25px;
 }
 
+
 .main-menu li a {
     font-size: 10px;
     padding: 10px 8px;
@@ -15,5 +16,89 @@
  
 
 .main-button a {
-    background-color:#07032B;
+    background-color: #07032B; 
+    color: #4ADEDD; /* Texto en botones */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
 }
+
+.main-nav li:hover a, .main-nav li.active a {
+    border: 2px solid #07032B;
+}
+
+.features-content:hover {
+    background-color: #A3A3A5;
+}
+
+/*nuestro impacto */
+section.coming-soon .continer h4 em {
+    color: #4ADEDD;
+}
+
+section.coming-soon .continer .counter span {
+    color: #07032B;
+}
+
+section.coming-soon .continer .counter .days, section.coming-soon .continer .counter .hours, section.coming-soon .continer .counter .minutes, section.coming-soon .continer .counter .seconds {
+    width: 22%;
+    height: 220px;
+}
+
+section.coming-soon form button  {
+    background-color: #07032B;
+}
+
+/*footer*/
+
+.footer__backtotop {
+    float: right;
+    cursor: pointer;
+    font-size: 16px; /* Ajusta el tamaño del texto */
+    color: #228AC5; /* Color del botón, ajusta según tu esquema de colores */
+    text-transform: uppercase;
+    transition: color 0.3s ease; /* Efecto de transición */
+}
+
+.footer__backtotop:hover {
+    color: #DE1D2A; /* Color al pasar el cursor, ajusta según tu esquema */
+}
+
+.footer__backtotop i {
+    margin-left: 10px; /* Ajusta el espacio entre el texto y el icono */
+    font-size: 18px; /* Tamaño del icono */
+}
+
+.footer__backtotop i:hover {
+    color: #DE1D2A; /* Cambia el color del icono al pasar el cursor */
+}
+
+
+.site-footer {
+    padding: 4em 0;
+    background: #333333; }
+    @media (min-width: 768px) {
+      .site-footer {
+        padding: 3em 0; } }
+    .site-footer .border-top {
+      border-top: 1px solid rgba(255, 255, 255, 0.1) !important; }
+    .site-footer p {
+      color: #737373; }
+    .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5 {
+      color: #fff; }
+    .site-footer a {
+      color: #999999; }
+      .site-footer a:hover {
+        color: white; }
+    .site-footer ul li {
+      margin-bottom: 10px; }
+    .site-footer .footer-heading {
+      font-size: 16px;
+      color: #fff; }
+
+      /*contacto*/
+      section.contact form button {
+        background-color: #07032B;
+      }
