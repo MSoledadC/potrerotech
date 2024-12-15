@@ -1,57 +1,218 @@
+h1, h2, h3 {
+    color: #C0C0C0 !important; /* Blanco */
+    text-shadow: 2px 2px 5px #C0C0C0; /* Sombra plateada para dar efecto metálico */
+}
+
+h4, h5, h6 {
+    color: #07032B; /* Color Oscuro */
+    text-shadow: 1px 1px 3px #C0C0C0; /* Sombra plateada para dar efecto metálico */
+}
 
 /* Header*/
 .main-header .logo a {
     font-size: 25px;
 }
 
-
 .main-menu li a {
     font-size: 10px;
     padding: 10px 8px;
+    background-color: #07032B;
+    border-radius: 25px;
 }
 
 .main-banner .caption h2 em {
-    color: #4ADEDD;
+    color: #012912;
 }
  
-
 .main-button a {
     background-color: #07032B; 
-    color: #4ADEDD; /* Texto en botones */
+    color: #133659; /* Texto en botones */
     border: none;
     padding: 10px 20px;
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
+    transition: all 0.3s ease;
+    
 }
+
+.main-button a:hover {
+    background-color: #133659; /* Azul Institucional */
+    color: #FFFFFF; /* Blanco */
+    box-shadow: 0 0 10px #C0C0C0; /* Sombra plateada */
+    border-color: #C0C0C0; /* Plateado */
+    border-radius: 25px;
+}
+
 
 .main-nav li:hover a, .main-nav li.active a {
     border: 2px solid #07032B;
+    border-radius: 25%;
 }
 
 .features-content:hover {
     background-color: #A3A3A5;
 }
 
+.video-overlay {
+    background-color: rgb(22 57 47 / 85%);
+}
+
 /*nuestro impacto */
-section.coming-soon .continer h4 em {
-    color: #4ADEDD;
+/* Ajustes para el color del texto "Impacto" */
+.section.coming-soon .continer h4 em {
+    color: #2E8B57 !important; /* Verde Impacto */
 }
 
-section.coming-soon .continer .counter span {
-    color: #07032B;
+/* Estilo de los textos dentro de los contadores */
+.section.coming-soon .continer .counter span {
+    color: #07032B; /* Color oscuro para los textos secundarios */
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 
-section.coming-soon .continer .counter .days, section.coming-soon .continer .counter .hours, section.coming-soon .continer .counter .minutes, section.coming-soon .continer .counter .seconds {
-    width: 22%;
-    height: 220px;
+/* Estilo de los bloques de contadores */
+.section.coming-soon .continer .counter .days, 
+.section.coming-soon .continer .counter .hours, 
+.section.coming-soon .continer .counter .minutes, 
+.section.coming-soon .continer .counter .seconds {
+    width: 35%;
+    height: 250px;
+    color: #133659; /* Azul Institucional */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(44, 107, 47, 0.7); /* Sombra suave */
+    text-align: center;
+    font-size: 1.8rem; /* Tamaño de texto grande */
+    margin-bottom: 20px;
 }
 
-section.coming-soon form button  {
-    background-color: #07032B;
+.section.coming-soon .continer .counter .value {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #4ADEDD; /* Verde Secundario para los números */
 }
+
+/* Estilo para los labels Formulario */
+.form-label {
+    font-size: 1.1rem; /* Tamaño de letra adecuado */
+    color: #07032B; /* Color oscuro */
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block; /* Asegura que el label esté encima del campo */
+}
+
+.section.coming-soon form {
+    background-color: rgb(44 107 47 / 32%);
+}
+
+/* Estilo para los campos de entrada */
+.section.coming-soon form .form-control {
+    background-color: #FFFFFF;
+    border: 1px solid #A3A3A5; /* Gris Institucional */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: #07032B; /* Color del texto */
+    width: 100%;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+/* Estilo cuando el input tiene el foco */
+section.coming-soon form .form-control:focus {
+    border-color: #4ADEDD; /* Verde Secundario al hacer focus */
+    outline: none;
+}
+
+.section.coming-soon form .button:hover {
+    background-color: #133659; /* Azul Institucional */
+    color: #FFFFFF;
+    border-color: #C0C0C0;
+    box-shadow: 0 0 10px #C0C0C0; /* Sombra plateada */
+}
+
+.section.coming-soon {
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 0px 0px;
+    
+}
+
+.section.coming-soon .top-content h6 {
+    background-color: rgb(6 28 4 / 59%);
+}
+
+/* Diseño del texto "Get it now" */
+.section.coming-soon form .button {
+    background-color: #015f2a8e; /* Verde Secundario */
+    color: #133659; /* Azul Institucional */
+    border: 2px solid #C0C0C0; /* Plateado */
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+
+.section.coming-soon .right-content {
+    margin-top: 130px;
+}
+
+
+/* Estilo para los botones */
+.section.coming-soon form button {
+    background-color: #2E8B57; /* Verde Impacto */
+    color: #FFFFFF; /* Blanco */
+    border: 2px solid #C0C0C0; /* Plateado */
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Estilo de hover para los botones */
+.section.coming-soon form button:hover {
+    background-color: #133659; /* Azul Institucional */
+    color: #FFFFFF;
+    border-color: #C0C0C0;
+    box-shadow: 0 0 10px #C0C0C0; /* Sombra plateada */
+}
+
+
+
+/* Estilo de la sección de impacto */
+.impacto {
+    background-color: #2E8B57; /* Verde Impacto */
+    color: #FFFFFF; /* Blanco */
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.impacto h4 {
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.impacto h4 em {
+    color: #C0C0C0; /* Plateado para resaltar "Impacto" */
+}
+
+
 
 /*footer*/
+
+.site-footer {
+    padding: 2em 0px;
+}
 
 .footer__backtotop {
     float: right;
