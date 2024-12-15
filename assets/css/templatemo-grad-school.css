@@ -532,7 +532,7 @@ section.why-us {
   cursor: pointer;
   outline: 0;
   padding-bottom: 30px;
-  color: #fff;
+  color: #C0C0C0ff;
   text-decoration: none;
   text-transform: uppercase;
   position: relative;
@@ -567,15 +567,15 @@ section.why-us {
 #tabs ul .ui-tabs-active {
 }
 #tabs ul .ui-tabs-active a {
-  color: #f5a425;
+  color: #2E8B57;
 }
 #tabs ul .ui-tabs-active a:after {
-  background-color: #f5a425;
+  background-color: #2E8B57;
   width: 15px;
   height: 15px;
 }
 #tabs ul .ui-tabs-active a:before {
-  border-color: #f5a425;
+  border-color: #2E8B57;
 }
 #tabs h4 {
     margin-top: 60px;
