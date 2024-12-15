@@ -1,11 +1,19 @@
-h1, h2, h3 {
+h1, h2, h3 ,h4, {
+    font-family: 'Barlow Condensed', sans-serif;
     color: #C0C0C0 !important; /* Blanco */
-    text-shadow: 2px 2px 5px #C0C0C0; /* Sombra plateada para dar efecto metálico */
+    text-shadow: none; /* Sombra plateada para dar efecto metálico */
 }
 
-h4, h5, h6 {
-    color: #07032B; /* Color Oscuro */
-    text-shadow: 1px 1px 3px #C0C0C0; /* Sombra plateada para dar efecto metálico */
+h5, h6 {
+    color: #07032B !important; /* Color Oscuro */
+   /* text-shadow: 1px 1px 1px #C0C0C0; /* Sombra plateada para dar efecto metálico */
+}
+
+.h2titulo {
+    color: #C0C0C0 !important; /* Blanco */
+    text-shadow: 2px 2px 5px #C0C0C0; /* Sombra plateada para dar efecto metálico */
+    font-family: 'Barlow Condensed', sans-serif; /* Barlow Condensed */
+    font-weight: 500; /* Peso Medium */
 }
 
 /* Header*/
@@ -26,7 +34,7 @@ h4, h5, h6 {
  
 .main-button a {
     background-color: #07032B; 
-    color: #133659; /* Texto en botones */
+    color: #C0C0C0; /* Texto en botones */
     border: none;
     padding: 10px 20px;
     border-radius: 4px;
